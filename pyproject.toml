@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "maauirelease"
+version = "0.1.0"
+description = "MAA ElectronUI Release Tool"
+authors = ["bakashigure <bakashigure@hotmail.com>"]
+license = "AGPL-3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pygithub = "^1.57"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
